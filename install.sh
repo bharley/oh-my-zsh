@@ -28,7 +28,7 @@ declare -a deps=(
 # Download them
 for i in "${deps[@]}"
 do
-  curl -o $ZSH_CUSTOM/$i -sSL https://raw.githubusercontent.com/bharley/oh-my-zsh/$i
+  curl -o $ZSH_CUSTOM/$i -sSL https://raw.githubusercontent.com/bharley/oh-my-zsh/master/$i
 done
 
 echo 'Set your ZSH_THEME="blake"!'
